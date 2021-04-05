@@ -13,3 +13,7 @@
 2. [Algorithmes sur les tableaux](TPs/tableaux.pdf)
 3. [Récursivité](TPs/recursivite.pdf)
 4. [Manipulation de listes](TPs/listes.pdf)
+
+## Autres
+
+* [Installation d'Emacs et OCaml](Divers/Installation.md)
