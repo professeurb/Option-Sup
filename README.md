@@ -14,6 +14,10 @@
 3. [Récursivité](TPs/recursivite.pdf)
 4. [Manipulation de listes](TPs/listes.pdf)
 
+## DMs
+
+1. [Algorithme de Kaprekar](DMs/kaprekar.pdf)
+
 ## Autres
 
 * [Installation d'Emacs et OCaml](Divers/Installation.md)
