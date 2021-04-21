@@ -13,6 +13,7 @@
 2. [Algorithmes sur les tableaux](TPs/tableaux.pdf)
 3. [Récursivité](TPs/recursivite.pdf)
 4. [Manipulation de listes](TPs/listes.pdf)
+5. [Algorithmes de tris sur les listes](TPs/tris.pdf)
 
 ## DMs
 
