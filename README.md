@@ -6,6 +6,8 @@
 2. [Programmation impérative](Cours/imperatif.pdf)
 3. [Récursivité et listes](Cours/recursif.pdf)
 4. [Analyse de programmes récursifs](Cours/recursif2.pdf)
+5. [Complexité des programmes récursifs, premières récurrences](Cours/recursif3.pdf)
+6. [Méthode "Diviser pour Régner", I](Cours/diviser.pdf)
 
 ## TPs
 
