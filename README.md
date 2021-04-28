@@ -21,6 +21,10 @@
 
 1. [Algorithme de Kaprekar](DMs/kaprekar.pdf)
 
+## Notes de cours
+
+1. [Séance du 28 avril](Séances/option_sup_28_avril.pdf)
+
 ## Autres
 
 * [Installation d'Emacs et OCaml](Divers/Installation.md)
