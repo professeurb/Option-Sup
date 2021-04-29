@@ -16,6 +16,7 @@
 3. [Récursivité](TPs/recursivite.pdf)
 4. [Manipulation de listes](TPs/listes.pdf) ([correction](TPs/listes_correction.pdf))
 5. [Algorithmes de tris sur les listes](TPs/tris.pdf)
+6. [Diviser pour Régner](TPs/diviser.pdf)
 
 ## DMs
 
