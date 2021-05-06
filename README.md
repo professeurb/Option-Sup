@@ -20,7 +20,7 @@
 
 ## DMs
 
-1. [Algorithme de Kaprekar](DMs/kaprekar.pdfDMs/kaprekar_corr.pdf))
+1. [Algorithme de Kaprekar](DMs/kaprekar.pdf) ([correction](DMs/kaprekar_corr.pdf))
 
 ## Notes de cours
 
