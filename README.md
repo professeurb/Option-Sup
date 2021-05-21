@@ -7,7 +7,10 @@
 3. [Récursivité et listes](Cours/recursif.pdf)
 4. [Analyse de programmes récursifs](Cours/recursif2.pdf)
 5. [Complexité des programmes récursifs, premières récurrences](Cours/recursif3.pdf)
-6. [Méthode "Diviser pour Régner", I](Cours/diviser.pdf)
+6. [Méthode "Diviser pour Régner", I : Principe et analyse](Cours/diviser.pdf)
+7. [Méthode "Diviser pour Régner", II : Applications](Cours/diviser2.pdf)
+8. [Programmation dynamique](Cours/dynamique.pdf)
+9. [Structures de données, I : Files et Piles](Cours/structures1.pdf)
 
 ## TPs
 
