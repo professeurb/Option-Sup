@@ -1,8 +1,21 @@
 # Installation des programmes
 
-Comme on l'a vu, il est possible d'utiliser OCaml en ligne sur le site [Try OCaml](https://try.ocamlpro.com). Néanmoins, pour pouvoir travailler de façon plus efficace, il est intéressant d'installer chez soi OCaml (avec quelques bibliothèques, et la possibilité d'en installer d'autres) ainsi qu'un éditeur performant, comme Emacs qui propose un ensemble de fonctionnalités très intéressantes pour OCaml.
+Pour utiliser OCaml chez vous, plusieurs possibilités&nbsp;: soit utiliser une version en ligne, soit installer OCaml directement chez vous, sur votre ordinateur.
 
-Nous allons détailler dans la suite comment installer cela, les diverses procédures sont regroupées par systèmes d'exploitation.
+## Versions en ligne
+
+### Try OCaml
+
+Une des sociétés s'occupant du développement du langage, [OcamlPro](https://www.ocamlpro.com), propose un éditeur et une console en ligne sur le site [Try OCaml](https://try.ocamlpro.com).
+
+### Basthon
+
+Le site [Basthon](https://basthon.fr) qui, originellement, offrait simplement une console Python, a vu ses fonctionnalités se développer. Il est possible maintenant d'utiliser plusieurs langages (dont OCaml) en deux modes&nbsp;: soit avec deux fenêtres éditeur/console, soit à l'aide d'un mode _notebook_.
+
+## Installation sur son ordinateur
+
+Pour faire du OCaml dans des conditions optimales, vous pouvez envisager d'installer le langage sur votre ordinateur. Voici, suivant les systèmes d'exploitation, la procédure à suivre.
+
 
 ## Linux
 
@@ -40,6 +53,9 @@ S'il y a un problème, il est possible que vous deviez installer auparavant un c
 ```shell
 xcode-select --install
 ```
+
+Une fois _Homebrew_ installé, vous pouvez installer les programmes nécessaires.
+
 ### Emacs
 
 ```shell
@@ -56,20 +72,13 @@ brew install gpatch opam
 
 Pour finir, reportez-vous plus bas aux instructions d'installation d'OCaml par opam.
 
-
 ## Windows
 
-Il n'est pas facile d'installer directement Emacs comme OCaml sous Windows qui n'est pas un système d'exploitation de type [UNIX](https://fr.wikipedia.org/wiki/Unix) (contrairement à Linux et macOS).
+Il est assez compliqué d'installer _à la main_ OCaml sous Windows. La première solution que je propose est d'utiliser [WinCaml](https://jean-mouric.pagesperso-orange.fr/index.html), programme proposé par un collègue enseignant en classe préparatoire. Cependant, n'ayant d'ordinateur sous Windows, je ne peux l'essayer. Mais les instructions semblent claires (il faut les lire attentivement, et installer une distribution OCaml comme indiqué).
 
-La procédure que je vous propose d'essayer (mais que je n'ai pas testée) repose sur l'installation de [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/).
+Pour les plus ambitieux, une autre possibilité est d'installer, sur un Windows récent, le programme [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/). Cela fournit un environnement type Linux (comme ce que vous utilisez en salle 404). 
 
-### WSL et Emacs
-
-Voici une page détaillée pour installer WSL puis Emacs&nbsp;: [Emacs-WSL](https://github.com/hubisan/emacs-wsl)
-
-### OCaml
-
-Une fois que vous avez installé WSL et Ubuntu, vous pouvez installer OCaml comme expliqué précédemment pour Linux/Ubuntu.
+Vous pourrez alors installer Emacs (en suivant les instructions détaillées ici&nbsp;: [Emacs-WSL](https://github.com/hubisan/emacs-wsl)) puis `opam` (le gestionnaire d'installation d'OCaml), en suivant les instructions de Linux/Ubuntu.
 
 ## Initialisation d'OCaml par opam
 
@@ -94,7 +103,7 @@ Installons maintenant un [plugin](https://github.com/ocaml-opam/opam-user-setup)
 opam user-setup install
 ```
 
-Pour finir, on 
+Pour finir, on exécute la commande
 ```shell
 eval `opam env`
 ```
