@@ -19,3 +19,4 @@
 ## Autres
 
 * [Installation d'Emacs et OCaml](Divers/Installation.md)
+* [Suggestions de lectures](Divers/Complements.md)
