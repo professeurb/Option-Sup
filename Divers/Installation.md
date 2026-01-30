@@ -41,11 +41,15 @@ Pour finir, reportez-vous plus bas aux instructions d'installation d'OCaml par o
 
 ## macOS
 
-Voici une procédure d'installation qui repose sur [Homebrew](https://brew.sh), un gestionnaire de programmes basé sur le terminal.
+### Emacs
+
+Pour l'éditeur de code `emacs`, la version à installer se trouve sur le site [https://emacsformacosx.com](https://emacsformacosx.com).
 
 ### Homebrew
 
-Recopiez la ligne suivante et exécutez-la dans le terminal&nbsp;:
+Pour installer `ocaml`, on utilise le gestionnaire de programmes [Homebrew](https://brew.sh), qui nécessite l'utilisation du terminal.
+
+Commençons donc par installer `homebrew`. Pour cela, copiez la ligne suivante et exécutez-la dans le terminal&nbsp;:
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -53,21 +57,14 @@ S'il y a un problème, il est possible que vous deviez installer auparavant un c
 ```shell
 xcode-select --install
 ```
-
 Une fois _Homebrew_ installé, vous pouvez installer les programmes nécessaires.
-
-### Emacs
-
-```shell
-brew install emacs
-```
 
 ### OCaml
 
 On installe ensuite [opam](https://opam.ocaml.org), le _package manager_ d'Ocaml.
 
 ```shell
-brew install gpatch opam
+brew install opam
 ```
 
 Pour finir, reportez-vous plus bas aux instructions d'installation d'OCaml par opam.
